@@ -1,0 +1,21 @@
+/* BookButtons.css */
+
+.custom-btn {
+  color: white;
+  background-color: transparent; /* Transparent background */
+  border: 2px solid white; /* White border */
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: none; /* Remove box shadow */
+}
+
+.custom-btn:hover {
+  color: black; /* Change text color on hover */
+  background-color: white; /* Change background color on hover */
+}
+
+.button-container {
+  margin-top: 20px;
+}

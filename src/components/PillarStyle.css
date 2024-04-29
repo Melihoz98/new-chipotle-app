@@ -1,0 +1,17 @@
+.pillar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px; /* Adjust width as needed */
+  }
+  
+  .pillar-left {
+    left: 0;
+    background-color: green; /* Left pillar color */
+  }
+  
+  .pillar-right {
+    right: 0;
+    background-color: red; /* Right pillar color */
+  }
+  
