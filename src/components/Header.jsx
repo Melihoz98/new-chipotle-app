@@ -27,10 +27,10 @@ const Header = () => {
       </button>
       <div className={`${isCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <Link className="nav-item nav-link active" to="/" style={{ fontSize: '20px', color: 'black' }}>Hjem <span className="sr-only">(current)</span></Link> {/* Make the font size bigger */}
-          <Link className="nav-item nav-link" to="/Menu" style={{ fontSize: '20px', color: 'black' }}>Menu</Link> {/* Make the font size bigger */}
-          <Link className="nav-item nav-link" to="/Job" style={{ fontSize: '20px', color: 'black' }}>Job</Link> {/* Make the font size bigger */}
-          <Link className="nav-item nav-link" to="/Contact" style={{ fontSize: '20px', color: 'black' }}>Kontakt og Åbningstider</Link> {/* Make the font size bigger */}
+          <Link className="nav-item nav-link active" to="/" style={{ fontSize: '20px', color: 'white' }}>Hjem <span className="sr-only">(current)</span></Link> {/* Make the font size bigger */}
+          <Link className="nav-item nav-link" to="/Menu" style={{ fontSize: '20px', color: 'white' }}>Menu</Link> {/* Make the font size bigger */}
+          <Link className="nav-item nav-link" to="/Job" style={{ fontSize: '20px', color: 'white' }}>Job</Link> {/* Make the font size bigger */}
+          <Link className="nav-item nav-link" to="/Contact" style={{ fontSize: '20px', color: 'white' }}>Kontakt og Åbningstider</Link> {/* Make the font size bigger */}
         </div>
       </div>
     </nav>

@@ -22,3 +22,12 @@
   left: 0;
   z-index: -1; /* Ensure it's behind other content */
 }
+p, li{
+  font-family: "Anton", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  font-style: normal;
+}
+.contact-info h2, .opening-hours h2{
+  font-size: 28px;
+}
