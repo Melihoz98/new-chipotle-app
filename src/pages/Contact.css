@@ -2,14 +2,15 @@
     display: flex;
   }
   
+ 
   .contact-info,
   .opening-hours {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 10px; /* Reduce the margin-right */
     margin-top: 200px;
     color: aliceblue;
   }
- 
+  
 .contact {
   background-image: url('../treeBaggrund.jpg');
   background-size: cover;

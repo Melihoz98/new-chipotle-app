@@ -1,19 +1,19 @@
 /* BookButtons.css */
 
-.custom-btn {
+.custom-btn,
+.custom-link {
   color: white;
-  background-color: transparent; /* Transparent background */
-  border: 2px solid white; /* White border */
-  padding: 10px 20px;
   margin-right: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: none; /* Remove box shadow */
+  font-size: 18px; /* Increase font size */
+  font-family: inherit; /* Inherit font-family from parent */
 }
 
-.custom-btn:hover {
+.custom-btn:hover,
+.custom-link:hover {
   color: black; /* Change text color on hover */
-  background-color: white; /* Change background color on hover */
 }
 
 .button-container {

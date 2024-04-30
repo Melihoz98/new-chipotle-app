@@ -10,7 +10,7 @@ const Home = () => {
       <div className="home-background"></div> {/* Background image container */}
       {/*<img src={logo} alt="Logo" style={{ width: '200px', height: 'auto', marginBottom: '10px' }} /> */}
 
-      <img src={name} alt="Navn" style={{ width: '600px', height: 'auto', marginBottom: '10px' }} /> 
+      <img src={name} alt="Navn" className="name-image" /> 
       <BookButtons />
       {/*<div className='textBackground'> <h2>Smag på vores saftige bøffer med en krydret twist.<br />
       Oplev ægte mexicansk gastronomi i hjertet af Slagelse</h2> </div>*/}

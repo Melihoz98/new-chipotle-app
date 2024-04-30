@@ -29,7 +29,7 @@ Vi leder efter:<br></br>
     Fleksibilitet til at arbejde skiftende arbejdstider<br></br>
 
 Hvis du er interesseret i at blive en del af vores team,<br></br>
- bedes du sende din ansøgning og CV til [email protected] <br></br>
+ bedes du sende din ansøgning og CV til chipotlemexican2024@hotmail.com <br></br>
  Vi ser frem til at høre fra dig!<br></br>
       </h2>
    

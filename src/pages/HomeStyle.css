@@ -36,3 +36,18 @@ h2 {
   left: 0;
   z-index: -1; /* Ensure it's behind other content */
 }
+/* HomeStyle.css */
+
+.name-image {
+  width: 800px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+  .name-image {
+    width: 300px; /* Adjust the width for smaller screens */
+  }
+}
+
+/* Other styles... */

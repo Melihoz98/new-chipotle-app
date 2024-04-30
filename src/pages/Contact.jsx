@@ -11,7 +11,7 @@ const Contact = () => {
         <h2>Kontakt os</h2>
         <p>Adresse: Jernbanegade 3, Slagelse 4200</p>
         <p>Telefon: 55 66 28 00</p>
-        <p>Email: info@example.com</p>
+        <p>Email: chipotlemexican2024@hotmail.com</p>
       </div>
       <div className="opening-hours">
         <h2>Åbningstider</h2>
