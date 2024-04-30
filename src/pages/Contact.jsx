@@ -2,6 +2,10 @@ import React from 'react';
 import './Contact.css'; // Importer CSS-filen til styling
 const Contact = () => {
   return (
+
+    <div className='contact'>
+
+   
     <div className="contact-container">
       <div className="contact-info">
         <h2>Kontakt os</h2>
@@ -21,6 +25,7 @@ const Contact = () => {
           <li>Søndag: 11:00 - 22:00</li>
         </ul>
       </div>
+    </div> 
     </div>
   );
 };
