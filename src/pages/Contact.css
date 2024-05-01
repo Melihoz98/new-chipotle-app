@@ -1,16 +1,15 @@
 .contact-container {
-    display: flex;
-  }
-  
- 
-  .contact-info,
-  .opening-hours {
-    flex: 1;
-    margin-right: 10px; /* Reduce the margin-right */
-    margin-top: 200px;
-    color: aliceblue;
-  }
-  
+  display: flex;
+  flex-direction: column; /* Display flex items vertically */
+}
+
+.contact-info,
+.opening-hours {
+  margin-right: 10px; /* Reduce the margin-right */
+  margin-top: 200px; /* Adjust margin-top */
+  color: aliceblue;
+}
+
 .contact {
   background-image: url('../treeBaggrund.jpg');
   background-size: cover;
@@ -23,12 +22,16 @@
   left: 0;
   z-index: -1; /* Ensure it's behind other content */
 }
-p, li{
+
+p,
+li {
   font-family: "Anton", sans-serif;
   font-weight: 300;
   font-size: 22px;
   font-style: normal;
 }
-.contact-info h2, .opening-hours h2{
+
+.contact-info h2,
+.opening-hours h2 {
   font-size: 28px;
 }

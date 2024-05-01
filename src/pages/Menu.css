@@ -34,9 +34,28 @@
 }
 
 .button-container {
-  margin-top: 20px; /* Add margin to separate buttons */
+  margin-top: 10px; /* Add margin to separate buttons */
 }
 
 h2{
   font-size: 30px;
+  background-color: rgba(9, 207, 9, 0.575);
+  margin-top: 50px;
+}
+
+.buttonNew {
+  background-color: green; /* Set background color to green */
+  color: white; /* Set text color to white */
+  border: none; /* Remove button border */
+  padding: 10px 40px; /* Increase horizontal padding for wider buttons */
+  cursor: pointer; /* Add pointer cursor on hover */
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 100px;
+  margin-right: 10px; /* Add some margin between buttons */
+  font-family: Arial, sans-serif; /* Set a fallback font family */
+}
+
+.buttonNew:hover {
+  opacity: 0.8; /* Reduce opacity on hover for visual feedback */
 }

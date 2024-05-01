@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../sort-guld-logo-removebg-preview.png'; // Import the logo image
+import logo from '../logomexico-removebg-preview.png'; // Import the logo image
 
 const Header = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);

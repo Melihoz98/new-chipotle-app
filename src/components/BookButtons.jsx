@@ -10,11 +10,11 @@ const BookButtons = () => {
   };
 
   return (
-    <div className="button-container">
-      <Link to="/Menu" className="custom-link">
-        <button className="btn custom-btn" type="button">Menu</button>
+    <div >
+      <Link to="/Menu" >
+        <button className="buttonNew" type="button">Menu</button>
       </Link>
-      <button className="btn custom-btn" type="button" onClick={handleBookClick}>Book bord</button>
+      <button className="buttonNew" type="button" onClick={handleBookClick}>Book bord</button>
     </div>
   );
 };

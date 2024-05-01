@@ -12,10 +12,10 @@ const Menu = () => {
       </h2>
       <div className="button-container">
         <a href="/Mexi-menukort-frokost-udkast.pdf" target="_blank" rel="noopener noreferrer">
-          <button className="btn custom-btn" type="button">Frokostmenu</button>
+          <button className="buttonNew" type="button">Frokostmenu</button>
         </a>
         <a href="/Mexi-menukort-aften-udkast.pdf" target="_blank" rel="noopener noreferrer">
-          <button className="btn custom-btn" type="button">Aftenmenu</button>
+          <button className="buttonNew" type="button">Aftenmenu</button>
         </a>
       </div>
     </div>
