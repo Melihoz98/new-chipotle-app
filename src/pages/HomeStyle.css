@@ -26,8 +26,8 @@ h2 {
 
 
 .home {
-  background-image: url('../bof.png');
-  background-size: cover;
+  background-image: url('../nyCanva.png');
+  background-size: 60%;
   background-position: center;
   background-attachment: fixed;
   width: 100%;
