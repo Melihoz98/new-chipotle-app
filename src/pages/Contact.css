@@ -1,13 +1,19 @@
 .contact-container {
   display: flex;
-  flex-direction: column; /* Display flex items vertically */
+  flex-direction: row; /* Display flex items horizontally */
+  justify-content: space-around; /* Distribute items evenly with space around them */
+  align-items: center; /* Vertically center items */
 }
 
 .contact-info,
 .opening-hours {
-  margin-right: 10px; /* Reduce the margin-right */
-  margin-top: 200px; /* Adjust margin-top */
-  color: aliceblue;
+  flex: 1; /* Make each item take equal space */
+  margin: 0; /* Remove margin */
+  padding: 20px; /* Add padding for spacing */
+
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  background-color: rgba(240, 248, 255, 0);
 }
 
 .contact {
@@ -29,9 +35,23 @@ li {
   font-weight: 300;
   font-size: 22px;
   font-style: normal;
+  color: rgb(255, 255, 255);
 }
 
 .contact-info h2,
 .opening-hours h2 {
   font-size: 28px;
+}
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column; /* Change to stack items vertically */
+    align-items: stretch; /* Stretch items to fill the width */
+    background-color: rgba(240, 248, 255, 0);
+  }
+
+  .contact-info,
+  .opening-hours {
+    margin: 10px 0; /* Add margin to separate items */
+    background-color: rgba(240, 248, 255, 0);
+  }
 }

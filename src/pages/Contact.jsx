@@ -3,6 +3,7 @@ import './Contact.css'; // Importer CSS-filen til styling
 const Contact = () => {
   return (
 
+    
     <div className='contact'>
 
    
