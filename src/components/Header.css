@@ -1,29 +1,14 @@
-
-a {
-    font-family: "Anton", sans-serif;
-    color: green;
-  }
-
-  a:hover {
-    text-decoration: underline;
-    color: green;
-  }
-  
-  .custom-bg {
-    background-color: rgb(0, 0, 0); 
-    color: green;
-  }
 /* Header.css */
 
 .custom-bg {
   background-color: rgba(0, 0, 0, 0.253); 
- 
 }
 
 .navbar-nav .nav-item .nav-link::selection {
   background-color: #f7df1e; /* Change the selection background color */
   color: rgb(97, 16, 16); /* Change the selection text color */
 }
+
 .navbar-nav .nav-item .nav-link {
   font-size: 20px;
   color: white;
@@ -35,10 +20,21 @@ a {
   color: white;
   text-decoration: underline; /* Add underlines */
 }
+
 .navbar-nav .nav-link:hover {
   text-decoration: underline; /* Add underline on hover */
 }
 
 .navbar-nav .nav-link.active {
   text-decoration: underline; /* Add underline when active */
+}
+
+a {
+  font-family: "Anton", sans-serif;
+  color: green;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: green;
 }
