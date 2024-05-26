@@ -1,4 +1,4 @@
-.contact {
+/*.contact {
   background-image: url('../treeBaggrund.jpg');
   background-size: cover;
   background-position: center;
@@ -8,99 +8,89 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: -1; /* Ensure it's behind other content */
-  overflow-y: auto; /* Enable vertical scrolling */
+  z-index: -1; 
+  overflow-y: auto; 
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff; /* Text color */
+  color: #fff; 
+}
+*/
+
+/* Contact.css */
+/* Contact.css */
+
+body {
+  background: url('../treeBaggrund.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial, sans-serif';
+  color: #333;
 }
 
-.overlay {
-  background: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
-  max-width: 1500px; /* Limit width for smaller screens */
-  width: 100%;
-  margin-top: 200px;
-  
-}
-
-.contact-container {
+.container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.103); /* Slight white background for readability */
+  border-radius: 8px;
   width: 100%;
+  max-width: 300px;
+  margin: 0px auto; /* Center the container on the page */
 }
 
-.contact-info,
-.opening-hours {
-  flex: 1;
-  padding: 20px;
-  margin: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-}
-
-.contact-info h2,
-.opening-hours h2 {
-  font-size: 24px; /* Reduced font size */
-  margin-bottom: 15px;
+.opening-hours, .contact-info {
+  width: 100%;
+  margin: -10px 0;
   text-align: center;
 }
 
-.contact-info p,
-.opening-hours ul {
-  font-size: 16px; /* Reduced font size */
-  line-height: 1.5;
+h2 {
+  font-size: 1.3em;
+  margin-bottom: -1px;
+  color: #2c3e50;
 }
 
-.opening-hours ul {
-  list-style: none;
+ul {
+  list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-.image-container {
+li {
+  padding: 2px 0;
+  font-size: 1.0em;
+  color: rgb(255, 255, 255);
+  font-family: fantasy;
+  font-weight: 500;
+}
+
+p {
+  color: aliceblue;
+  font-size: 1.0em;
+  margin: 0px 0;
+  font-family: fantasy;
+  font-weight: 500;
+}
+
+.images {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 20px;
+  align-items: flex-end;
+  margin-top: 10px;
 }
 
-.round-image {
-  width: 120px; /* Smaller size for images */
-  height: 120px; /* Smaller size for images */
-  border-radius: 50%;
-  margin: 10px;
-  object-fit: cover;
-  transition: transform 0.3s;
+.images img {
+  width: 80px;
+  height: auto;
+  margin: 0 5px;
+  border-radius: 8px;
 }
 
-.round-image:hover {
-  transform: scale(1.1);
-}
-
-/* Media query for smaller devices */
-@media (max-width: 768px) {
-  .overlay {
-    padding: 20px; /* Adjust padding for smaller screens */
-  }
-
-  .contact-info h2,
-  .opening-hours h2 {
-    font-size: 22px; /* Further reduced font size */
-  }
-
-  .contact-info p,
-  .opening-hours ul {
-    font-size: 14px; /* Further reduced font size */
-  }
-
-  .round-image {
-    width: 100px;
-    height: 100px;
+@media (min-width: 768px) {
+  .images img {
+    width: 120px;
   }
 }
