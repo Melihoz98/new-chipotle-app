@@ -1,7 +1,7 @@
 import React from 'react';
 import './Job.css'; 
 import logo from '../logomexico-removebg-preview.png';
-
+import restaurantFront from '../restaurantFront.PNG'; // Import the image
 
 
 
@@ -10,7 +10,7 @@ const Job = () => {
 
   return (
     <div className="job">
-
+      <img src={restaurantFront} alt="Restaurant Front" className="restaurant-front" /> {/* Add image here */}
       <h2>
       Bliv en del af vores team!<br></br>
 

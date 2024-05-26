@@ -16,9 +16,16 @@
   }
 
   h2{
-    margin-top: 310px;
+    margin-top: 350px;
     font-size: 20px;
     background-color: rgba(0, 0, 0, 0.24);
     border-radius: 20px;
     color: rgba(240, 248, 255, 0.916);
+  }
+  .restaurant-front {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Ensure height matches width for a square aspect ratio */
+    border-radius: 50%; /* Make the image round */
+   margin-top: 300px;
+    margin-bottom: 1px; /* Add some space below the image */
   }
