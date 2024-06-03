@@ -9,6 +9,7 @@
   font-weight: 100px;
   margin-right: 10px; /* Add some margin between buttons */
   font-family: Arial, sans-serif; /* Set a fallback font family */
+ 
 }
 
 .buttonNew:hover {

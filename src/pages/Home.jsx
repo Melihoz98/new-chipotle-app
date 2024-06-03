@@ -1,6 +1,6 @@
 import React from 'react';
 import name from '../TekstNavn-removebg-preview(1).png';
-import logo from '../logomexico-removebg-preview.png';
+
 import './HomeStyle.css';
 import BookButtons from '../components/BookButtons';
 

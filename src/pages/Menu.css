@@ -1,74 +1,55 @@
 .menu {
   background-image: url('../wineglass.jpg');
-
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    text-align: center; /* Center text */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; /* Ensure it's behind other content */
-  
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust as needed */
+  padding: 20px; /* Add padding to keep content away from edges */
+  box-sizing: border-box;
+  min-height: 100vh; /* Set minimum height of .menu to full viewport height */
+  background-size: cover; /* Ensure the background covers the entire .menu container */
+  background-position: center;
+  display: flex;
+  flex-direction: column; /* Ensure content stacks vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  overflow: hidden; /* Prevent content from overflowing and showing the white background */
+}
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
-.custom-btn {
-  color: white;
-  background-color: black;
-  border: 1px solid black;
-  padding: 10px 20px;
-  margin: 10px; /* Add margin to buttons */
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+
+@media (max-width: 768px) {
+  .menu {
+    background-color: rgba(255, 255, 255, 0.95); /* Increase opacity for smaller devices */
+  }
 }
 
-.custom-btn:hover {
-  color: black;
-  background-color: white;
-  border-color: black;
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1); /* Increase shadow on hover */
+@media (max-width: 200px) {
+  .menu h2 {
+    margin-top: 300px;
+    font-size: 20px;
+    flex-direction: column; /* Stack images vertically */
+  }
 }
 
-.button-container {
-  margin-top: 10px; /* Add margin to separate buttons */
+@media (max-width: 900px) {
+  .menu h2 {
+    margin-top: 350px;
+    font-size: 20px;
+    flex-direction: column; /* Stack images vertically */
+  }
 }
-
 h2 {
   font-size: 30px;
   background-color: rgba(9, 207, 9, 0.575);
   margin-top: 150px;
 }
 
-.buttonNew {
-  background-color: green; /* Set background color to green */
-  color: white; /* Set text color to white */
-  border: none; /* Remove button border */
-  padding: 10px 40px; /* Increase horizontal padding for wider buttons */
-  cursor: pointer; /* Add pointer cursor on hover */
-  border-radius: 15px;
-  font-size: 20px;
-  font-weight: 100px;
-  margin-right: 10px; /* Add some margin between buttons */
-  font-family: Arial, sans-serif; /* Set a fallback font family */
-}
 
 .buttonNew:hover {
   opacity: 0.8; /* Reduce opacity on hover for visual feedback */
 }
 
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* This will make sure the contact section fills the entire viewport height */
-}
 
 .forum-image {
   max-width: 100%; /* Ensure the image does not exceed its container */
