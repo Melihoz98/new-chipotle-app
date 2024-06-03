@@ -6,6 +6,9 @@ import insideThree from '../insideThree.png';
 
 const Contact = () => {
   return (
+    <div className='bgPic'>
+
+   
     <div className="container">
       <section className="opening-hours">
         <h2>Åbningstider</h2>
@@ -30,7 +33,7 @@ const Contact = () => {
         <img src={insideTwo} alt="Inside Two" />
         <img src={insideThree} alt="Inside Three" />
       </section>
-    </div>
+    </div> </div>
   );
 };
 

@@ -20,13 +20,17 @@
 /* Contact.css */
 /* Contact.css */
 
-body {
+.bgPic {
   background: url('../treeBaggrund.jpg') no-repeat center center fixed;
   background-size: cover;
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial, sans-serif';
-  color: #333;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensure it's behind other content */
 }
 
 .container {

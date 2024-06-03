@@ -1,18 +1,21 @@
 .menu {
   background-image: url('../wineglass.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1; /* Ensure it's behind other content */
-  display: flex; /* Use flexbox */
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure it's behind other content */
+  
 }
 
 .custom-btn {
@@ -40,7 +43,7 @@
 h2 {
   font-size: 30px;
   background-color: rgba(9, 207, 9, 0.575);
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .buttonNew {
@@ -89,7 +92,7 @@ h2 {
 
 @media (max-width: 200px) {
   h2 {
-    margin-top: 150px;
+    margin-top: 300px;
     font-size: 20px;
     flex-direction: column; /* Stack images vertically */
   }
@@ -98,7 +101,7 @@ h2 {
 
 @media (max-width: 900px) {
   h2 {
-    margin-top: 150px;
+    margin-top: 350px;
     font-size: 20px;
     flex-direction: column; /* Stack images vertically */
   }
